@@ -30,26 +30,6 @@ This project explores how **sentiment** and **persuasive language** in public ne
 
 ---
 
-## 📂 Project Structure
-
-CryptoStockPricePrediction/
-├── Data Preprocessing/
-│ ├── sentiment_analysis_gpt.ipynb
-│ ├── persuasion_detection.ipynb
-├── Models/
-│ ├── model_training.ipynb
-│ ├── evaluation_metrics.ipynb
-├── GUI/
-│ ├── gui_app.py
-├── data/
-│ ├── news_articles.csv
-│ ├── financial_data.csv
-├── requirements.txt
-├── .gitignore
-├── README.md
-
----
-
 ## Results
 
 | Model                  | Accuracy | ROC-AUC |
@@ -78,7 +58,7 @@ Compared to notable prior work:
 - Delivering **5% better accuracy** (0.64 vs 0.61)
 - Introducing **persuasion detection** as a novel NLP signal for financial forecasting — an innovation not seen in earlier works
 
-This indicates a strong contribution in enhancing cryptocurrency prediction using modern LLM-based sentiment/persuasion modeling and integrated feature engineering.
+  This indicates a strong contribution in enhancing cryptocurrency prediction using modern LLM-based sentiment/persuasion modeling and integrated feature engineering.
 ---
 
 ## Tech Stack
@@ -103,7 +83,7 @@ This indicates a strong contribution in enhancing cryptocurrency prediction usin
 
 ---
 
-## 📘 Project Report
+## Project Report
 
 A **detailed write-up** of this project — including background, methodology, analysis, model comparisons, and future work — is available in the repository.
 
