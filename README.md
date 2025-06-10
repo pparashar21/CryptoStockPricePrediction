@@ -107,7 +107,7 @@ This indicates a strong contribution in enhancing cryptocurrency prediction usin
 
 A **detailed write-up** of this project — including background, methodology, analysis, model comparisons, and future work — is available in the repository.
 
-[Click here to view the full project report](./BIA660_Final_Report_Team-2.pdf)
+[Click here to view the full project report](./Final_Report.pdf)
 
 We encourage readers to review the report for a deep dive into:
 - Theoretical motivation
