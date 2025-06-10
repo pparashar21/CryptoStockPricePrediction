@@ -45,8 +45,6 @@ This project explores how **sentiment** and **persuasive language** in public ne
 - Persuasion scores (SemEval-based)
 - Lagged and rolling statistical features
 
----
-
 ### Comparison with Prior Research
 
 Compared to notable prior work:
@@ -95,12 +93,3 @@ We encourage readers to review the report for a deep dive into:
 - EDA and data pipeline details
 - Model evaluation and tuning
 - Innovation in persuasion analysis and feature engineering
-
-## References
-
-- [FinBERT on HuggingFace](https://huggingface.co/)
-- [News API](https://newsapi.org)
-- [Yahoo Finance](https://finance.yahoo.com/)
-- [SemEval Persuasion Guidelines](https://knowledge4policy.ec.europa.eu/sites/default/files/JRC132862_technical_report_annotation_guidelines_final_with_affiliations_1.pdf)
-- [Springer 2021](https://link.springer.com/article/10.1007/s10994-021-06095-3)
-- [MDPI 2021](https://www.mdpi.com/1099-4300/21/6/589)
