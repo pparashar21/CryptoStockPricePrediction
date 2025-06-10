@@ -6,49 +6,29 @@ Created on Sat Dec  7 09:29:40 2024
 @author: komalwavhal
 """ 
  
-import tkinter.scrolledtext as tkscrolled
-import os
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
-import tkinter.scrolledtext as tkscrolled
+import os
 from PIL import Image,ImageTk
-from tkinter.filedialog import askopenfilename
 import threading
-from time import sleep 
-import subprocess
 import time
 import sys
-import tkinter, sys
-from tkinter import scrolledtext
 #try:
 #    import docx
 #except:
 #    os.system('python -m pip install -i python-docx')
 #    import docx
    
-from tkinter import messagebox   
-import time
-from pathlib import Path   
-from tkinter import filedialog
-import io
 import threading     
 import tkinter as tk  
-from tkinter import messagebox
-from PIL import Image, ImageTk    
-from tkinter import messagebox as msg   
-import datetime
+from PIL import Image, ImageTk     
 from tkinter import ttk 
 import tkinter as tk
 #import Config
-import tkinter as tk
-from tkinter import ttk
-import shutil
-from datetime import datetime
 #from win32com.shell import shell, shellcon
 LARGEFONT =("Verdana", 35)
 from AppKit import NSWorkspace
-import getpass 
 # import win32gui, win32con 
 import time 
 
@@ -112,17 +92,13 @@ class tkinterApp(tk.Tk):
 
 # first window frame startpage 
 class StartPage(tk.Frame):
- 
- 
-    
 	def __init__(self, parent, controller): 
-        
-		win_user = 0
-		import os
-		try:
+        win_user = 0
+        try:
+              
             ### for Windows users
 		    desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-		    print(desktop)
+            print(desktop)
 		    Parent_Folder_Path = desktop + "/BIA_660_Project_Repository"
 		    print(Parent_Folder_Path)
         
